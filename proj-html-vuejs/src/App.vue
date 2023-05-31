@@ -9,15 +9,27 @@ export default {
     PageHeader,
     PageMain,
     PageFooter
+  },
+
+  data() {
+    return {
+      navLinks: [
+        "Home",
+        "About",
+        "Academics",
+        "Courses",
+        "News"
+      ]
+    }
   }
 }
+
+
 </script>
 
 <template>
   <header>
-    <PageHeader />
-    <!-- navbar -->
-    <!-- jumbo -->
+    <PageHeader :navLinks="navLinks" />
   </header>
 
   <main>
