@@ -56,6 +56,7 @@ a {
     background-image: url(../assets/img/jumbotron_1.PNG);
     background-size: cover;
     background-position: center;
+    margin-bottom: 2rem;
 
     h1 {
         width: 750px;
