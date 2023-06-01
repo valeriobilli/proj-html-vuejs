@@ -4,8 +4,6 @@ export default {
 }
 </script>
 
-<template>
-    prova3
-</template>
+<template></template>
 
 <style></style>
