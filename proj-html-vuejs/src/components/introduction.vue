@@ -142,27 +142,7 @@ export default {
     margin-left: 1rem;
 }
 
-
-
-
-
-
-
-// .stats {
-//     width: 100px;
-//     height: 70px;
-
-//     .counter {
-//         font-size: 2rem;
-//         height: 3.5rem;
-//         background-size: cover;
-//         width: 100%;
-//         height: 100%;
-//     }
-
-//     .orange {
-//         color: #F28202;
-//         background-image: url(../assets/img/counter-shape-1-1-1.png);
-//     }
-// }
+.container-fluid {
+    margin-bottom: 4rem;
+}
 </style>

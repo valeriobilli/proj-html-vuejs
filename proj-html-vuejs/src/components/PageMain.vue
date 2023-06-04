@@ -1,28 +1,20 @@
 <script>
 
 import introduction from './introduction.vue'
+import courses from './courses.vue'
 
 export default {
     name: "PageMain",
     components: {
         introduction,
+        courses
     }
 }
 </script>
 
 <template>
     <introduction></introduction>
-
-    <!-- recent courses -->
-    <div class="row d-flex justify-content-center">
-        <div class="col-5">
-            <div class="row text-center">
-                <div>Recent courses</div>
-                <div>Whether you're considering a foundation course or an undergraduate degree master's or a PhD,
-                    Academics is a place where students thrive.</div>
-            </div>
-        </div>
-    </div>
+    <courses></courses>
 </template>
 
 <style scoped lang="scss"></style>
