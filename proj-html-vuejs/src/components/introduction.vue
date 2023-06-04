@@ -11,6 +11,7 @@ export default {
 
 <template>
     <div class="container-fluid">
+        <!-- presentation -->
         <div class="row d-flex justify-content-center" id="presentation">
             <div class="col-6">
                 <p>Since 2000, weve been partnering with education leaders to <span>increase equity and
@@ -19,6 +20,7 @@ export default {
                 </p>
             </div>
         </div>
+        <!-- cards -->
         <div class="row d-flex justify-content-center">
             <div class="col-8">
                 <div class="row text-center">
@@ -47,6 +49,7 @@ export default {
                 </div>
             </div>
         </div>
+        <!-- counter -->
         <div class="row d-flex justify-content-center">
             <div class="col-8">
                 <div class="row">
@@ -87,6 +90,7 @@ export default {
     }
 }
 
+// cards
 .myCard {
     width: 100%;
     padding: 3rem;
@@ -107,6 +111,7 @@ export default {
     }
 }
 
+// counter
 #counterStudents {
     background-image: url(../assets/img/counter-shape-1-1-1.png);
     background-size: contain;
@@ -134,6 +139,7 @@ export default {
     color: #3ADC79;
 }
 
+// margin
 .mr-1 {
     margin-right: 1rem;
 }
@@ -143,6 +149,6 @@ export default {
 }
 
 .container-fluid {
-    margin-bottom: 4rem;
+    margin-bottom: 4.5rem;
 }
 </style>
