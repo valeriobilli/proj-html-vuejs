@@ -81,12 +81,19 @@ export default {
 </template>
 
 <style scoped lang="scss">
+@use './style/partials/variables.scss' as *;
+
 #presentation {
     text-align: center;
     margin-bottom: 4rem;
 
     p {
         font-size: 26px;
+        font-weight: 600;
+
+        span {
+            color: $textColor6;
+        }
     }
 }
 
@@ -107,7 +114,7 @@ export default {
     }
 
     &:hover div {
-        color: #D74D52;
+        color: $textColor6;
     }
 }
 
@@ -132,15 +139,15 @@ export default {
 }
 
 .orange {
-    color: #F28202;
+    color: $textColor4;
 }
 
 .red {
-    color: #D74D52;
+    color: $textColor6;
 }
 
 .green {
-    color: #3ADC79;
+    color: $textColor2;
 }
 
 // margin

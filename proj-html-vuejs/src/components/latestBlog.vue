@@ -70,6 +70,8 @@ export default {
 </template>
 
 <style scoped lang="scss">
+@use './style/partials/variables.scss' as *;
+
 h3 {
     margin-top: 5rem;
 }
@@ -93,7 +95,7 @@ h3 {
         .redLine {
             width: 50px;
             height: 2px;
-            background-color: red;
+            background-color: $bgColor6;
             margin-top: 1rem;
             margin-bottom: 3rem;
         }

@@ -32,6 +32,8 @@ export default {
 </template>
 
 <style scoped lang="scss">
+@use './style/partials/variables.scss' as *;
+
 #video {
     width: 60%;
 }
@@ -39,21 +41,21 @@ export default {
 #event {
     width: 60%;
     min-height: 400px;
-    background-color: white;
+    background-color: $bgColor1;
     top: 15%;
     left: 40%;
     box-shadow: 0px 21px 50px 8px rgba(0, 0, 0, 0.08);
 
     #title {
-        background-color: #D74D52;
-        color: white;
+        background-color: $bgColor6;
+        color: $textColor1;
         margin: 0 25%;
         font-size: 1.2rem;
     }
 
     a {
         text-decoration: none;
-        color: black;
+        color: $textColor11;
         font-weight: bold;
         font-size: 0.8rem;
     }

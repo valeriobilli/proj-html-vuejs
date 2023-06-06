@@ -34,18 +34,10 @@ export default {
 
   <main>
     <PageMain />
-    <!-- descrizione -->
-    <!-- corsi recenti -->
-    <!-- prossimi eventi -->
-    <!-- ultime dal nostro blog -->
   </main>
 
   <footer>
     <PageFooter />
-    <!-- immagini -->
-    <!-- iscriviti alla newsletter -->
-    <!-- contatti -->
-    <!-- copyright -->
   </footer>
 </template>
 
