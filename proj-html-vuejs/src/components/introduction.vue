@@ -10,10 +10,10 @@ export default {
 </script>
 
 <template>
-    <div class="container-fluid">
+    <div class="container-lg mb-5">
         <!-- presentation -->
         <div class="row d-flex justify-content-center" id="presentation">
-            <div class="col-6">
+            <div class="col-7">
                 <p>Since 2000, weve been partnering with education leaders to <span>increase equity and
                         achievement</span>
                     for all students.
@@ -54,23 +54,23 @@ export default {
             <div class="col-8">
                 <div class="row">
                     <div class="col-4">
-                        <div class="d-flex align-items-center ml-1">
-                            <div class="fw-bold fs-2 orange mr-1" id="counterStudents">6500</div>
-                            <div class="fw-bold fs-2 orange mr-1">+</div>
+                        <div class="d-flex align-items-center ms-2">
+                            <div class="fw-bold fs-2 orange me-2" id="counterStudents">6500</div>
+                            <div class="fw-bold fs-2 orange me-2">+</div>
                             <div class="fw-bold">Students</div>
                         </div>
                     </div>
                     <div class="col-4 numbers">
-                        <div class="d-flex align-items-center ml-1">
-                            <div class="fw-bold fs-2 red mr-1" id="counterCourses">200</div>
-                            <div class="fw-bold fs-2 red mr-1">+</div>
+                        <div class="d-flex align-items-center ms-2">
+                            <div class="fw-bold fs-2 red me-2" id="counterCourses">200</div>
+                            <div class="fw-bold fs-2 red me-2">+</div>
                             <div class="fw-bold">Online Courses</div>
                         </div>
                     </div>
                     <div class="col-4">
-                        <div class="d-flex align-items-center ml-1">
-                            <div class="fw-bold fs-2 green mr-1" id="counterClients">100</div>
-                            <div class="fw-bold fs-2 green mr-1">%</div>
+                        <div class="d-flex align-items-center ms-2">
+                            <div class="fw-bold fs-2 green me-2" id="counterClients">100</div>
+                            <div class="fw-bold fs-2 green me-2">%</div>
                             <div class="fw-bold">Happy Clients</div>
                         </div>
                     </div>
@@ -115,16 +115,20 @@ export default {
 #counterStudents {
     background-image: url(../assets/img/counter-shape-1-1-1.png);
     background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 #counterCourses {
     background-image: url(../assets/img/counter-shape-2-1-1.png);
     background-size: contain;
+    background-repeat: no-repeat;
 }
 
 #counterClients {
     background-image: url(../assets/img/counter-shape-3-1-1.png);
     background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .orange {
@@ -140,15 +144,7 @@ export default {
 }
 
 // margin
-.mr-1 {
-    margin-right: 1rem;
-}
-
 .ml-1 {
     margin-left: 1rem;
-}
-
-.container-fluid {
-    margin-bottom: 4.5rem;
 }
 </style>

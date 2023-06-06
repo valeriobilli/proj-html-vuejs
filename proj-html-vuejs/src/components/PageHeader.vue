@@ -24,7 +24,7 @@ export default {
                 </div>
             </div>
             <div class="row">
-                <div class="col-12" id="jumbo">
+                <div class="col-12 mb-3" id="jumbo">
                     <h1 class="text-center">Professional Development For Coaches And Leaders</h1>
                     <div class="d-flex justify-content-center align-items-center">
                         <button type="button" class="btn btn-outline-dark" id="learnMoreBtn">Learn More</button>
@@ -56,7 +56,7 @@ a {
     background-image: url(../assets/img/jumbotron_1.PNG);
     background-size: cover;
     background-position: center;
-    margin-bottom: 2rem;
+
 
     h1 {
         width: 750px;

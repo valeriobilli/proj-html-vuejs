@@ -10,19 +10,20 @@ export default {
 </script>
 
 <template>
-    <div class="container-fluid">
+    <div class="container-lg mb-5">
         <!-- recent courses -->
         <div class="row d-flex justify-content-center">
             <div class="col-5">
-                <div class="row text-center">
-                    <h3>Recent courses</h3>
-                    <div>Whether you're considering a foundation course or an undergraduate degree master's or a PhD,
+                <div class="row text-center mb-4">
+                    <h3 class="mb-3">Recent courses</h3>
+                    <div>Whether you're considering a foundation course or an undergraduate degree master's or
+                        a PhD,
                         Academics is a place where students thrive.</div>
                 </div>
             </div>
         </div>
         <!-- cards -->
-        <div class="row d-flex justify-content-center">
+        <div class="row d-flex justify-content-center mb-5">
             <div class="col-8">
                 <div class="row">
                     <div class="col-4">
@@ -65,11 +66,25 @@ export default {
                 </div>
             </div>
         </div>
+        <!-- quote -->
+        <div class="row d-flex justify-content-center">
+            <div class="col-8">
+                <p id="quote" class="mt-2">"Academics was committed to my success from the moment I attend an Open House.
+                    With the
+                    support of caring
+                    <span class="fw-bold">advisors, professors, and staff</span> I was able to thrive in courses, gain
+                    recognition trough
+                    scholarhip, and finish <span class="fw-bold">with confidence in my <span
+                            class="fw-bold">@academics</span> abilities.</span>"
+                </p>
+            </div>
+        </div>
     </div>
 </template>
 
 <style scoped lang="scss">
 .imageCard {
+    height: 450px;
     box-shadow: 0px 21px 50px 8px rgba(0, 0, 0, 0.08);
 
     img {
@@ -82,7 +97,11 @@ export default {
     }
 }
 
-.mb-1 {
-    margin-bottom: 1rem;
+#quote {
+    font-size: 1.5rem;
+    text-align: center;
+    background-image: url("../assets/img/quote.png");
+    background-repeat: no-repeat;
+    background-position: center;
 }
 </style>
