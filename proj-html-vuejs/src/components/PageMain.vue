@@ -2,12 +2,14 @@
 
 import introduction from './introduction.vue'
 import courses from './courses.vue'
+import events from './events.vue'
 
 export default {
     name: "PageMain",
     components: {
         introduction,
-        courses
+        courses,
+        events
     }
 }
 </script>
@@ -15,6 +17,7 @@ export default {
 <template>
     <introduction></introduction>
     <courses></courses>
+    <events></events>
 </template>
 
 <style scoped lang="scss"></style>
