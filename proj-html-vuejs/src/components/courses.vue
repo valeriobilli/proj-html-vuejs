@@ -15,7 +15,7 @@ export default {
         <div class="row d-flex justify-content-center">
             <div class="col-5">
                 <div class="row text-center mb-4">
-                    <h3 class="mb-3">Recent courses</h3>
+                    <h3 class="mb-3">Latest From Our Blogs</h3>
                     <div>Whether you're considering a foundation course or an undergraduate degree master's or
                         a PhD,
                         Academics is a place where students thrive.</div>
@@ -89,7 +89,7 @@ export default {
 
     img {
         width: 100%;
-        height: 195px;
+        height: 180px;
     }
 
     .cardText {
